@@ -1,0 +1,66 @@
+*
+{
+    box-sizing: border-box;
+}
+html>body{
+    font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
+    
+}
+body{
+    margin: 0;
+    background-color: #E3EEFF;
+    color: #112233;
+}
+#islamskazajednicalogo{
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 100%;
+    width: 60%;
+}
+#main-container{
+width: 25%;
+height: 450px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 80px;
+
+}
+ #header{
+     height: 19%;
+     background-color: #1BBC9B;
+ }
+ #content{
+     height: 60%;
+     
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 25px;
+ }
+
+
+#prijava{
+    margin-right: 20px;
+    width: 100px;
+    float: right;
+}
+ 
+#margina{
+    margin-top: 30px;
+}
+.input{
+    width: 94%;
+    height: 30px ;
+    border-radius: 8px;
+    border: none;
+}
+#bbmedresa{
+ height: 105%;
+ width:20%;
+ float: right;
+}
+
+ #footer{
+     height: 21%;
+     background-color:#1BBC9B;
+ }
+ 
