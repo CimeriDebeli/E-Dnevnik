@@ -26,7 +26,7 @@
                 
                 <!--<img src="../slike/BBM.png" id="photo">-->
             <header>
-                <img src="../slike/logo1.png" id="photo1">
+                <img src="../slike/logo1.png" >
                 <p>BEHRAM-BEGOVA MEDRESA</p>
                 <small>ISLAMSKA ZAJEDNICA U BOSNI I HERCCEGOVINI</small>
             </header>
@@ -34,10 +34,12 @@
 
             <div class="container text-center">
                 <ul class="list-unstyled text-center list-group">
-                    <form class="form-group">
-                        <li ><input type="text" " name="" placeholder="Korisničko ime"></li>            
-                        <li ><input type="text"  name="" placeholder="Lozinka"></li>            
-                        <li > <input type="submit" class="btn btn-success" name="" value="PRIJAVA" id="btn"></li>            
+                    
+                    <form action="Neki.html" class="form-group">
+                        <li ><input type="text" " name="" placeholder="Korisničko ime" id="username" ></li>         
+
+                        <li ><input type="password"  name="" placeholder="Lozinka" id="password"></li>            
+                        <li ><a href="Neki.html"><input type="submit" class="btn btn-success" name="" value="PRIJAVA" id="btn" onclick=" return buttonValidation()"></a></li>            
                     </form>
                 </ul>
             </div>
@@ -53,4 +55,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
+
+  <script type="text/javascript" src="../JavaScript/Validacija.js"></script>
 </html>

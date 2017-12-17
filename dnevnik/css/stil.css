@@ -4,7 +4,7 @@
 ;
 	font-family: "Roboto", sans-serif;
 }
-#photo1{
+header img{
 	width: 106px;
 	margin: 0 auto;
 	display: inline;
@@ -55,3 +55,7 @@ form input{
 }
 }
 
+.error{
+
+	border: 1px solid red !important;
+}
