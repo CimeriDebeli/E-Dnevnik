@@ -1,66 +1,57 @@
-*
-{
-    box-sizing: border-box;
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.container{
+	background-color: #CBC29B
+;
+	font-family: "Roboto", sans-serif;
 }
-html>body{
-    font-family: "PT Sans", "Arial", "Helvetica", "Lucida Grande", "Gill Sans", "Verdana", sans-serif;
-    
+#photo1{
+	width: 106px;
+	margin: 0 auto;
+	display: inline;
 }
-body{
-    margin: 0;
-    background-color: #E3EEFF;
-    color: #112233;
+header{
+		background-color: #CBC29B;
+		margin-top: 100px;
+		margin-bottom: 15px;
 }
-#islamskazajednicalogo{
-    margin-left: 0px;
-    margin-top: 0px;
-    height: 100%;
-    width: 60%;
+header p{
+	font-size: 23px;
+	margin: 0;
+	margin-top: 7px;
+	font-weight: bold;
+	color: #795548;;
 }
-#main-container{
-width: 25%;
-height: 450px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 80px;
+header small{
+	font-size: 11px;
+	margin: 0;
+	color: #795548;
+}
+form input{
+	width: 290px;
+	margin: 13px 0;
+	border: none;
+	padding: 9px;
+	font-size: 15px;
+}
+#btn{
+	background-color: #388E3C;
+	letter-spacing: 2px;
+	border-radius: 0;
+	font-size: 15px;
+}
+@media and screen(max-width: 987px){
+	.inner header{
+		width: 100%;
 
+	}
+	.inner header p{
+			font-size:  8px;
+	}
 }
- #header{
-     height: 19%;
-     background-color: #1BBC9B;
- }
- #content{
-     height: 60%;
-     
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 25px;
- }
-
-
-#prijava{
-    margin-right: 20px;
-    width: 100px;
-    float: right;
+@media only screen and (max-width: 500px) {
+    form input{
+	width: 250px;
+	margin: 13px 0;
 }
- 
-#margina{
-    margin-top: 30px;
-}
-.input{
-    width: 94%;
-    height: 30px ;
-    border-radius: 8px;
-    border: none;
-}
-#bbmedresa{
- height: 105%;
- width:20%;
- float: right;
 }
 
- #footer{
-     height: 21%;
-     background-color:#1BBC9B;
- }
- 

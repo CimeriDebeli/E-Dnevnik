@@ -1,45 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>BBM</title>
+        <link rel="stylesheet" href="../css/stil.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/stil.css">
-    <title>Document</title>
-</head>
+    <body style="background-color:#CBC29B;  ">
 
-<body>
-    <div id="main-container">
-        <div id="header">
-            <img src="../img/logo2.png" alt="DNEVNIKel" id="islamskazajednicalogo" />
-            <img src="../img/behrambeg.png" alt="BEHRAM" id="bbmedresa">
+       <!-- <div class="container">
+            <header class="cont1 col-md-3 col-xs-8">
+                <img src="../slike/logo1.png">
+            </header>
+
+            <content class="cont2">
+                <span id="sp">BEHRAM-BEGOVA MEDRESA</span><br>
+            <span>ISLAMSKA ZAJEDNICA U BOSNI I HERCCEGOVINI</span>
+            </content>
+        </div>-->
+
+        <div class="container text-center">
+            <div class="container inner">
+                
+                <!--<img src="../slike/BBM.png" id="photo">-->
+            <header>
+                <img src="../slike/logo1.png" id="photo1">
+                <p>BEHRAM-BEGOVA MEDRESA</p>
+                <small>ISLAMSKA ZAJEDNICA U BOSNI I HERCCEGOVINI</small>
+            </header>
+            </div>
+
+            <div class="container text-center">
+                <ul class="list-unstyled text-center list-group">
+                    <form class="form-group">
+                        <li ><input type="text" " name="" placeholder="Korisničko ime"></li>            
+                        <li ><input type="text"  name="" placeholder="Lozinka"></li>            
+                        <li > <input type="submit" class="btn btn-success" name="" value="PRIJAVA" id="btn"></li>            
+                    </form>
+                </ul>
+            </div>
         </div>
-        <!--end of header-->
-        <div id="content">
-
-            <form method="POST" id="margina">
-                <label for="idkorisnika" id="ID">ID korisnika</label>
-                <br>
-                <input type="text" name="idkorisnika" class="input" id="prviunos"/> 
-                <br>
-                <br>
-                <label for="input">Lozinka</label>
-                <br>
-                <input type="password" name="lozinka" class="input" id="drugiunos" />
-                <br>
-                <br>
-                <input type="checkbox" value="zapamti prijavu" id="pamtiID">Zapamti prijavu
-                <input type="button" value="Prijava" id="prijava">
-             
 
 
-            </form>
-        </div>
-        <!--end of content-->
-        <div id="footer">
+    </body>
+    <!-- S K R I P T A -->
 
-        </div>
-    </div>
-    <!--end of main container-->
-</body>
-
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
 </html>
